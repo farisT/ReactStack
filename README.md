@@ -28,7 +28,7 @@ In deploying and scaling bigger apps it is advised that Docker is used in order 
       ```
         npm run build
         ```
-        
+
 By running this your app not only creates a build folder with a static version of your clientside code but it also automatically creates a dockercontainer and installs all the dependencies in that container. If you woulod like to tweak this have a look at the Dockerfile.
 
 ## Built With
@@ -43,10 +43,6 @@ By running this your app not only creates a build folder with a static version o
 ## Contributing
 
 A big thank you to the Create-React-App community in coming with multiple solutions to make it even more powerful. It has always been helpful for solving problems and roadblocks in my learning process.
-
-## Authors
-
-* **Faris Tangastani** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
 
 ## License
 
