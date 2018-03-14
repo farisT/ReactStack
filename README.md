@@ -8,7 +8,7 @@ Clone this repo into a clean folder and run npm install in both the root folder 
 
 ### Development
 
-In order to start-up Create-React-App's development server and run the Express API run:
+In order to start-up Create-React-App's development server and run the Express API run this command on the root folder level:
 
 ```
 npm run dev
