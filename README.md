@@ -29,7 +29,7 @@ In deploying and scaling bigger apps it is advised that Docker is used in order 
  npm run build
  ```
 
-By running this your app not only creates a build folder with a static version of your clientside code but it also automatically creates a dockercontainer and installs all the dependencies in that container. If you woulod like to tweak this have a look at the Dockerfile.
+By running this your app not only creates a build folder with a static version of your clientside code but it also automatically creates a dockercontainer and installs all the dependencies in that container. If you would like to tweak this have a look at the Dockerfile.
 
 ## Built With
 
