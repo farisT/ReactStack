@@ -23,10 +23,12 @@ In order to work on styling your app make sure to work within the stylesheets fo
 
 ## Production/Deployment
 
-In deploying and scaling bigger apps it is advised that Docker is used in order to create an optimum production build to ship to an OS or Server. 
+In deploying and scaling bigger apps it is advised that Docker is used in order to create an optimum production build to ship to an OS or Server.
+
       ```
         npm run build
         ```
+        
 By running this your app not only creates a build folder with a static version of your clientside code but it also automatically creates a dockercontainer and installs all the dependencies in that container. If you woulod like to tweak this have a look at the Dockerfile.
 
 ## Built With
