@@ -4,7 +4,7 @@ ReactStack is a React boilerplate for people looking to incorporate more functio
 
 ## Getting Started
 
-Clone this repo into a clean folder.
+Clone this repo into a clean folder and run npm install in both the root folder and the client folder.
 
 ### Development
 
