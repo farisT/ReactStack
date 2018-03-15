@@ -4,7 +4,7 @@ ReactStack is a React boilerplate for people looking to incorporate more functio
 
 ## Getting Started
 
-Clone this repo into a clean folder and run npm install in both the root folder and the client folder.
+Clone this repo into a clean folder and **run npm install in both the root folder and the client folder**.
 
 ### Development
 
@@ -16,7 +16,8 @@ npm run dev
 
 To reach the express backend the fetch api which is promised based (which is great when handling data from a mongo server or from a web API). Make sure you have nodemon to watch for changes on the server.
 
-The routing is done with react-router and is maintained in the routes/index.jsx file. The documentation is well structured so make sure to have a peak for help (https://reacttraining.com/react-router/)
+The routing is done with react-router and is maintained in the routes/index.jsx file. The documentation is well structured so make sure to have a peak for help
+(https://reacttraining.com/react-router/)
 
 In order to work on styling your app make sure to work within the stylesheets folder. the app.css in src contains compiled code and the app.scss in the stylesheets folder contains bootstrap imports so they do not need to be edited unless adding new stylesheets to app.scss.
 
@@ -30,6 +31,7 @@ In deploying and scaling bigger apps it is advised that Docker is used in order 
  ```
 
 By running this your app not only creates a build folder with a static version of your clientside code but it also automatically creates a dockercontainer and installs all the dependencies in that container. If you would like to tweak this have a look at the Dockerfile.
+(https://docs.docker.com/)
 
 ## Built With
 
@@ -40,14 +42,14 @@ By running this your app not only creates a build folder with a static version o
 * [concurrently](https://www.npmjs.com/package/concurrently) - Run multiple commands concurrently.
 * [nodemon](http://nodemon.io/) - Monitor for any changes in your node.js application and automatically restart the server.
 
-## Contributing
+## Contributing and Acknowledgments
 
-A big thank you to the Create-React-App community in coming with multiple solutions to make it even more powerful. It has always been helpful for solving problems and roadblocks in my learning process.
+* A big thank you to the Create-React-App community in coming with multiple solutions to make it even more powerful. It has always been helpful for solving problems and roadblocks in my learning process.
+* Big thanks to Esau Silva for the guide on express/node.js backend api
+(https://medium.freecodecamp.org/how-to-make-create-react-app-work-with-a-node-backend-api-7c5c48acb1b0)
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Acknowledgments
 
-* Big thanks to Esau Silva for the guide on express/node.js backend api(https://medium.freecodecamp.org/how-to-make-create-react-app-work-with-a-node-backend-api-7c5c48acb1b0)
